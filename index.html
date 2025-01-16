@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=370 height=640 tabindex="-1" style="width: 370px; height: 640px; background: #231F20"></canvas>
-    <script src="Build/NikolaySmileDemo.loader.js"></script>
+    <script src="Build/NikolaySmile.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,9 +26,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/NikolaySmileDemo.data",
-        frameworkUrl: "Build/NikolaySmileDemo.framework.js",
-        codeUrl: "Build/NikolaySmileDemo.wasm",
+        dataUrl: "Build/NikolaySmile.data",
+        frameworkUrl: "Build/NikolaySmile.framework.js",
+        codeUrl: "Build/NikolaySmile.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "ArkadiyRozhkov",
         productName: "NikolaySmile",
